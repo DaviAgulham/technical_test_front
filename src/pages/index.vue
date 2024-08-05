@@ -1,7 +1,13 @@
 <template>
-  <HelloWorld />
+  <Index />
 </template>
 
-<script setup>
-  //
+<script>
+  import Index from "@/views/customers/Index"
+
+  export default {
+    components: {
+      Index
+    }
+  }
 </script>
